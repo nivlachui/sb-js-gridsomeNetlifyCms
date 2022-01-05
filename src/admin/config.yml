@@ -17,6 +17,16 @@ collections:
       - {label: "Excerpt", name: "excerpt", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "date"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "posts-json"
+    label: "posts (Json)"
+    folder: "posts-json"
+    extension: "json"
+    create: true    
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Excerpt", name: "excerpt", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "date"}
+      - {label: "Body", name: "body", widget: "markdown"}      
   - label: "Pages"
     name: "pages"
     files:
@@ -24,6 +34,7 @@ collections:
         name: "locations"
         file: "site/content/locations.json"
         extension: "json"
+        create: true 
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Intro, name: intro, widget: markdown}
