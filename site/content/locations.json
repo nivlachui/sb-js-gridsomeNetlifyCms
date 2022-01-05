@@ -1,4 +1,10 @@
 {
-  "title": "Test",
-  "intro": "Dummy"
+  "title": "Test2",
+  "intro": "Dummy ",
+  "locations": [
+    {
+      "name": "Location 1",
+      "address": "Address 1"
+    }
+  ]
 }
